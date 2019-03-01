@@ -30,13 +30,36 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+////  map creates a new array from the original, while forEach changes the original array.
+
+
 2. What is the difference between a function and a method?
+
+////  a function stands on its own able to be called anywhere in the program, while a method is nested inside a parent and can only be called inside of the parent. outside values can be taken in by the method but not taken out.
+
 
 3. What is closure?
 
+////  It is a combination of a function and a lexical (original scope) within which a function is declared. The nested function can take in outside values but not taken out.
+
+
 4. Describe the four rules of the 'this' keyword.
 
+////  a. Window Binding - binding 'this' to the window.
+
+////  b.Implict Binding - literaly binding methods and variables in the object together using 'this'.
+
+////  c. New Keyword Binding - lets you use functions for multiple users to keep their data by keeping a main function and creating copies
+        of it with different user information rather than recreating hundreds of times. This also helps reduce storage use.
+
+////  d. Explicit Binding (functions) - lets you pass arguments into your function to add information. It can pass arguments individually
+        (using ".call()") or evan a whole Array (using ".Apply()" or "..."). You ca also use .bind to save your functions for later.
+
+
 5. Why do we need super() in an extended class?
+
+////  super(); is a keyword that takes in the values & methods of the parent class and adds them to the child class, but it cannot be done without using "extends parent" on the child class name, otherwise it will point twords the window/console as its parent.                                                                                                                                      
+
 
 ## Project Set up
 
