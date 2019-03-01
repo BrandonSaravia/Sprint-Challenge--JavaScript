@@ -35,7 +35,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
-////  a function stands on its own able to be called anywhere in the program, while a method is nested inside a parent and can only be called inside of the parent. outside values can be taken in by the method but not taken out.
+////  a function stands on its own able to be called anywhere in the program, while a method is nested inside a parent and can only be called inside of the parent. outside             values can be taken in by the method but not taken out.
 
 
 3. What is closure?
