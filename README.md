@@ -58,7 +58,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
 
-////  super(); is a keyword that takes in the values & methods of the parent class and adds them to the child class, but it cannot be done without using "extends parent" on the child class name, otherwise it will point twords the window/console as its parent.                                                                                                                                      
+////  super(); is a keyword that takes in the properties & methods of the parent class and adds them to the child class, but it cannot be done without using "extends parent" on the        child class name, otherwise it will point twords the window/console as its parent.                                                                                                                                      
 
 
 ## Project Set up
